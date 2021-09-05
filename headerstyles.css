@@ -84,7 +84,7 @@ label {
 }
 
 .header-menu {
-  padding: 0;
+  padding: .25rem;
   margin: 0;
   display: none;
   position: fixed;
