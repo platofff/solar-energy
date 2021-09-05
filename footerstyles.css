@@ -1,0 +1,14 @@
+footer {
+  font-family: 'Comfortaa', cursive;
+  background-color: rgb(40, 40, 40);
+  color: white;
+  text-align: center;
+  font-size: large;
+  width: 100vw;
+  padding: 0.2rem;
+}
+
+#platofff {
+  cursor: pointer;
+  text-decoration: underline;
+}

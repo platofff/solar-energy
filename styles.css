@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+#content {
+  margin-top: 8vh;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+  z-index: 4;
+}
+
+.content {
+  height: 47vh;
+  max-height: 47vh;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  background-color: rgb(159, 197, 246);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content-img {
+  max-width: 46vw;
+  min-width: 46vw;
+  align-self: flex-end;
+  object-fit: cover;
+  height: 100%;
+}
+
+.content-text, .content-second {
+  font-size: 300%;
+  color:white;
+}
+
+.content-first {
+  margin: 1rem;
+}
+
+.content-second {
+  font-size: 50%;
+  font-family: 'Comfortaa', cursive;
+  margin: 0;
+}
+
+.content-block {
+  font-family: 'Poiret One', cursive;
+  font-weight: 700;
+  flex-grow: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+#content-2 {
+  top: 47vh;
+  flex-direction: row-reverse;
+  z-index: 3;
+  background-color: lightcoral;
+}
+
+#content-3 {
+  top: 94vh;
+  z-index: 2;
+  background-color: rgb(121, 214, 121);
+}
